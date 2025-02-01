@@ -8,6 +8,18 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'learn',      # Must match POSTGRES_DB in docker-compose.yml
+        'USER': 'gits',          # Must match POSTGRES_USER in docker-compose.yml
+        'PASSWORD': '1',  # Must match POSTGRES_PASSWORD in docker-compose.yml
+        'HOST': 'db',              # This is the name of the PostgreSQL service defined in docker-compose.yml
+        'PORT': '5432',
+    }
+}
+
+
 INSTALLED_APPS = [
     'django.contrib.admin', #adminka
     'django.contrib.auth',  #autentification
