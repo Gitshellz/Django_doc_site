@@ -1,5 +1,4 @@
 # Django #
-*.log
 *.pot
 *.pyc
 __pycache__
@@ -95,15 +94,6 @@ celerybeat-schedule.*
 
 # SageMath parsed files 
 *.sage.py 
-
-# Environments 
-.env 
-.venv 
-env/ 
-venv/ 
-ENV/ 
-env.bak/ 
-venv.bak/ 
 
 # mkdocs documentation 
 /site 
