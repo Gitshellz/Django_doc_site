@@ -1,3 +1,3 @@
-# Создание первого web приложения на Django по документации: 
+web приложения на Django по документации: 
 
 https://docs.djangoproject.com/en/5.1/
